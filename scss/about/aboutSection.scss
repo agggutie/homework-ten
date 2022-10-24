@@ -1,0 +1,78 @@
+.aboutSection{
+    height: 1100px;
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+
+    .aboutPos{
+        min-width: 980px;
+        min-height: 1100px;
+        display: flex;
+        flex-direction: column;
+
+        .aboutH1{
+            position: relative;
+            top: 110px;
+            height: 60px;
+            width: 247px;
+            
+            h1{
+                font-size: 60px;
+                letter-spacing: 2px;
+                font-family: proxima-nova-extra-condensed, sans-serif;
+                font-weight: 200;
+                font-style: normal;
+            }
+        }
+        .h1Text{
+            position: relative;
+            top: 150px;
+            width: 980px;
+            height: 96px;
+            font-size: 16px;
+            letter-spacing: 2px;
+        }
+        .aboutH2{
+            position: relative;
+            top: 257px;
+            
+            h2{
+                position: relative;
+                font-size: 40px;
+                letter-spacing: 2px;
+                font-family: proxima-nova-extra-condensed, sans-serif;
+                font-weight: 200;
+                font-style: normal;
+            }
+        }
+        .aboutClient{
+            position: relative;
+            top: 297px;
+            width: 721px;
+            height: 150px;
+            display: flex;
+            margin-bottom: 37px;
+
+            .clientImage{
+                width: 260px;
+                height: 150px;
+                margin-right: 21px;
+            }
+            .aboutText{
+                width: 385px;
+                height: 102px;
+                p{
+                    letter-spacing: 2px;
+                }
+            }
+            .author{
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                color: #79ADDC;
+            }
+        }
+    }
+
+}
+

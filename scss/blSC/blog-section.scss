@@ -1,0 +1,45 @@
+.blog-template-section{
+    width: 980px;
+    height: 860px;
+    display: flex;
+    flex-direction: column;
+
+    h1{
+        margin-bottom: 41px;
+    }
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+    .left{
+        min-width: 80px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p{
+            width: 60px;
+            height: 60px;
+            color: white;
+            background-color: #79ADDC;
+        }
+    }
+
+    .right{
+        min-width: 900px;
+        min-height: 259px;
+        display: flex;
+        flex-direction: column;
+
+        p{
+            margin-bottom: 11px;
+        }
+
+        .blue{
+            color: #79ADDC;
+
+        }
+    }
+}
+}

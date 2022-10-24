@@ -1,0 +1,25 @@
+footer{
+    display: flex;
+    min-width: 1280px;
+    min-height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #79ADDC;
+
+
+    .footer .footerLeft {
+        min-width: 92px;
+        min-height: 42px;
+    }
+    .footerMid{
+        color: floralwhite;
+    }
+    .footerRight {
+        min-width: 112px;
+        min-height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}

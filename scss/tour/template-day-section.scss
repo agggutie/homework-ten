@@ -1,0 +1,61 @@
+    .templateDays{
+        display: flex;
+        flex-direction: column;
+        min-width: 981px;
+        height: 776px;
+        margin-bottom: 43.5px;
+
+        .title{
+            width: 243px;
+            height: 60px;
+            margin-bottom: 36.5px;
+            h2{
+                font-size: 60px;
+            }
+        }
+
+        .para{
+            width: 980px;
+            height: 96px;
+            margin-bottom: 89px;
+
+            p{
+                font-size: 16px;
+                height: 96px;
+            }
+        }
+
+    }
+
+    button{
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        margin-bottom: 50px;
+        background-color: #79ADDC;
+        border-radius: 20px;
+        border: none;
+        padding: 11px 21px;
+        color: #fff;
+    }
+
+    @media (min-width: 200px) and (max-width: 1000px) {
+        .templateDays{
+          justify-content: center;
+          align-items: center;
+    
+    
+          .para{
+            p{
+                position: relative;
+                left: 35%;
+                top: -20px;
+
+                width: 30%;
+                font-size: 14px;
+            }
+          }
+          
+    
+      }
+    }  

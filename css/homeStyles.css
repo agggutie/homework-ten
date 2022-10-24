@@ -1,0 +1,465 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.site-container {
+  max-width: 1280px;
+  max-height: 1792px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: main;
+  src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+@font-face {
+  font-family: second;
+  src: url(../fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: light;
+  src: url(../fonts/Proxima-Nova-Thin.otf);
+}
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 1280px;
+}
+.home .heroSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 100px;
+  min-height: 500px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  background-image: url(../images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.home .heroSection nav {
+  width: 980px;
+  height: 90px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.home .heroSection nav .navLeft {
+  width: 92px;
+  height: 42px;
+}
+.home .heroSection nav .navLeft img {
+  width: 92px;
+  height: 42px;
+}
+.home .heroSection nav .navRight {
+  width: 888px;
+  height: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.home .heroSection nav .navRight a {
+  padding: 10px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: white;
+}
+.home .heroSection .heroTextHolder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 1280px;
+  min-height: 500px;
+}
+.home .heroSection .heroTextHolder .heroText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 414px;
+  height: 406px;
+  padding: 30px;
+  color: #fff;
+}
+.home .heroSection .heroTextHolder .heroText .heroOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 60px;
+  font-family: light;
+}
+.home .heroSection .heroTextHolder .heroText .heroTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  font-family: light;
+}
+.home .heroSection .heroTextHolder .heroText button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #79ADDC;
+  border-radius: 20px;
+  border: none;
+  padding: 11px 21px;
+  color: #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  font-family: light;
+}
+.home .imageSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1280px;
+  max-height: 912px;
+  background-color: white;
+}
+.home .imageSection .imageHolder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  min-width: 813px;
+  min-height: 304px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -104px;
+}
+.home .imageSection .imageHolder .image {
+  width: 251px;
+  height: 304px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.home .imageSection .imageHolder .image .text {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+.home .imageSection .imageHolder .image .text .imageOne {
+  width: 100px;
+  font-size: 45px;
+  font-family: light;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.home .imageSection .imageHolder .image .text .imageTwo {
+  font-size: 30px;
+  font-family: light;
+}
+.home .imageSection .imageHolder .image .text button {
+  background-color: #79ADDC;
+  padding-top: 20px;
+  border-radius: 20px;
+  border: none;
+  padding: 11px 21px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1000px) {
+  .home {
+    min-width: 100px;
+    min-height: 100px;
+  }
+  .home .heroSection nav {
+    max-height: 10vh;
+    max-width: 10vh;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .home .imageSection .imageHolder {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+  }
+}
+.contact {
+  max-width: 1280px;
+  min-height: 892px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+}
+.contact .booking-wrapper {
+  min-width: 100px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+.contact .booking-wrapper h1 {
+  font-size: 60px;
+}
+.contact .booking-wrapper .space-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 21px;
+}
+.contact .booking-wrapper .space-input input {
+  min-width: 344px;
+  min-height: 58px;
+}
+.contact .booking-wrapper .long-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+.contact .booking-wrapper .long-input input {
+  min-width: 650px;
+  min-height: 58px;
+}
+.contact .booking-wrapper .tri-input {
+  max-width: 100%;
+  max-height: 58px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.contact .booking-wrapper .tri-input .left {
+  width: 33.3%;
+  height: 58px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contact .booking-wrapper .tri-input .left input {
+  max-width: 103px;
+  min-height: 58px;
+}
+.contact .booking-wrapper .tri-input .mid {
+  max-width: 33.3%;
+  max-height: 58px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contact .booking-wrapper .tri-input .mid input {
+  width: 103px;
+  height: 58px;
+}
+.contact .booking-wrapper .tri-input .right {
+  width: 33.3%;
+  height: 58px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contact .booking-wrapper .tri-input .right input {
+  max-width: 103px;
+  min-height: 58px;
+}
+.contact .booking-wrapper .textBox {
+  max-width: 818px;
+  max-height: 192px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+}
+.contact .booking-wrapper .textBox input {
+  width: 818px;
+  height: 192px;
+}
+.contact .booking-wrapper .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 818px;
+  max-height: 60px;
+  padding-top: 60px;
+}
+.contact .booking-wrapper .button button {
+  width: 813px;
+  height: 60px;
+  background-color: #79ADDC;
+  border-radius: 20px;
+  border: none;
+  padding: 11px 21px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1000px) {
+  .contact {
+    min-height: 100px;
+  }
+  .contact .booking-wrapper .space-input {
+    min-width: 100px;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .home .imageSection .imageHolder {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+  }
+}

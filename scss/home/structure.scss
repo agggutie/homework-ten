@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-bottom: 16px;
+  }
+
+  .site-container{
+    max-width: 1280px;
+    max-height: 1792px;
+    margin: 0 auto;
+  }
+
+  @font-face {
+    font-family: main;
+    src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+  }
+
+  @font-face {
+    font-family: second;
+    src: url(../fonts/GillSans.ttc);
+  }
+  @font-face {
+    font-family: light;
+    src: url(../fonts/Proxima-Nova-Thin.otf);
+  }
+
+
+  

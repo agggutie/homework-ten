@@ -1,0 +1,29 @@
+.image-row-template{
+    min-width: inherit;
+    min-height: 413px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 29px;
+
+    img{
+        width: 298px;
+        height: 347px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 1000px) {
+    .image-row-template{
+      flex-direction: column;
+      min-height: min-content;
+
+
+      img{
+        margin-bottom: 16px;
+      }
+      
+
+  }
+}  

@@ -1,0 +1,71 @@
+.toursSec{
+    width: 819px;
+    min-height: 1070px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 49px;
+
+    .imageRow{
+        max-width: 819px;
+        min-height: 304px;
+        display: flex;
+        justify-content: space-between;
+
+        .textHolder{
+            height: 304px;
+            width: 236px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-bottom: 51px;
+
+            .text{
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                
+                .imageOne {
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 60px;
+                    font-family: light;
+                    color: white;
+                    padding-bottom: 10px;
+                }
+
+                .imageTwo{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 20px;
+                    font-family: light;
+                    color: white;
+                    padding-bottom: 20px;
+                }
+                button {
+                    display: flex;
+                    background-color: #79ADDC;
+                    border-radius: 20px;
+                    border: none;
+                    padding: 11px 21px;
+                    color: #fff;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 20px;
+                    font-family: light;
+                }
+            }
+
+            img{
+                height: inherit;
+            }
+        }
+
+    }
+
+
+}
